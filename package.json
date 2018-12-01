@@ -14,7 +14,8 @@
     "react-dom": "^16.1.1",
     "react-redux": "^5.0.2",
     "redux": "^3.6.0",
-    "redux-thunk": "^2.2.0"
+    "redux-thunk": "^2.2.0",
+    "yarn": "^1.12.3"
   },
   "scripts": {
     "start": "react-scripts start",
