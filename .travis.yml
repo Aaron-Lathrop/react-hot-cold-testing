@@ -4,11 +4,11 @@ cache:
   directories:
   - node_modules
 env:
-- CI=true
+  secure: b4J0lJmZVCLbD9IohGSKSl+IGHL3hlO5lXMJfngkdR31sGJ7R9+wCPG6ZLaW9/cjhd6gjAPKatbO2KB8yCc8XZCNq12WCXzAhc+DW0vl0b3f4foEWOJnm7C47yIEK5iQ6dh9dhhn+cTVLeZt5yuLtvQB8ko1RffMugRsth+QKI69Boyvbapa/2keGdePOVR4h6HDPykezHe2k0fXoSCoUOR1e8A2JJrBL3iThsmcjjC2aPSdzZXFs+wcWgSUU27wOQGPcE3Z3AB+vsG1AcE6D+eK6yNRSKRDUfSQ+VuDJcOssXDs/+XDbNTImPXm8Rnar+6Ycl2zxPPVxyThrHRmkHmSlCW8PtQ7S+VxIEOCTnk3zUQQ0FryHF1369ToDVJQ0awpcsgcxfB49zEFqmj8BoRKdErAFRohAK+F+ZjA4Ds+XgzqIkWpNzJN7s5kqPkATsdlo3yJ1zFKxVCyP9VkvBmbAWSxEJ/6SIjefBQ/yLU2IpHyxGluhBexQudAZqWtMiT8xAj9386XLPA6uEaRtpC2pUXfvOy3HPPqLxhOgLf11TV2nrBdakKUsDeJFx3tuUo9gRn7YGt+7YgEl6VlgtB+EAq/o2mgHnUM20r5dtLsahBz1UAiqXWqxMyR5sMMn+lsGa6ByR3DOlbMQ8LiVPuBTqr9xvAljjc04CpmfkQ=
 deploy:
   provider: heroku
   api_key:
-    secure: process.env.HEROKU_KEY
+    secure:
   app: safe-earth-19588
   on:
     repo: Aaron-Lathrop/react-hot-cold-testing
