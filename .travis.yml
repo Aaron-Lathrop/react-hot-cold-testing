@@ -9,7 +9,7 @@ env:
 deploy:
   provider: heroku
   api_key:
-    secure: KEY
+    secure: process.env.KEY
   app: safe-earth-19588
   on:
     repo: Aaron-Lathrop/react-hot-cold-testing
