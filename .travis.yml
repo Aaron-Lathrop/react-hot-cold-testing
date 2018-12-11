@@ -8,7 +8,7 @@ env:
 deploy:
   provider: heroku
   api_key:
-    secure: "process.env.KEY"
+    secure: "YtvYeM0h0/gHbnCIELWiEMYMT9P5KFM7AuETDbmVQtFBtJr4spb2VUN0aqRpY2yTdLrftA9TMIJzNgWAs2N4Udv9l8sCOjOtxS0Aa2wd4B/Y4m2nqjAB4V+iSYCEDR+CT5ih9WnCc5fTt9d6LhnJV8vtGRGfMUOfKLiHcJVMCqAgPmg4A9cBeFz/rfy+ZkKWs4OYM3oRiDbjfk9gGyPBRCXY8Q6kU80Oa52cYzHW7ahS8ABF16aKbgOGDE2R4/yAFRXk7vBHIod0RAfvjtZm5ipUxZQM/W6oX7XR6HiiEEJ64XROD+30EbUxNdOaYWj9njcqMjatRRtAczyb5jqS9SJ3h8zsj0t6u2NcxkuaciFHLlbPvPdI+Gnw/cFUYOw0rHdLwD1746yN1e8MzAOQB36+RO2nUFhsjRIeiU4xA7EpfCvJqsTBTn943ksRsfy/5Y4FwYTrnOKv3WQV4V4ZHOY2Xepa5BbWbvuIS1Vd/rE7EkW131TA60Q5Eh5Yj1D37EDm9r6cZ5rzjBUc6p+z32+OZ5Kb7HecybMke7PaTGbdZTRs7eyRrit9y8szNgnST1kKNwWEn8v2ZjawEmzFwwbsB+0OFHP13uG4tOp8Zg4U04R1MGPelvz1ys8wXGHB0cVWC8pTM1g1F8w5C80cO42NNuFmOV3Sy7YVd6n01hE="
   app: safe-earth-19588
   on:
     repo: Aaron-Lathrop/react-hot-cold-testing
